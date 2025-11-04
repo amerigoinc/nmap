@@ -1,0 +1,15 @@
+{
+  "name": "nmap",
+  "version": "7.94",
+  "description": "Network exploration and security auditing tool",
+  "app_name": "nmap",
+  "main_file": "nmap",
+  "project_type": "security",
+  "source_url": "https://github.com/nmap/nmap.git",
+  "install_commands": [
+    "./configure",
+    "make",
+    "sudo make install"
+  ],
+  "dependencies": ["gcc", "make", "libpcap-dev"]
+}
